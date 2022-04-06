@@ -1,0 +1,47 @@
+/*Medium devices (tablets, 765px and up)*/
+@media screen and (max-width: 765px)  {
+    body{
+        font-size: 14px
+    }
+
+    .main_container {
+        display: inline-block;
+    }
+    
+    .title_section {
+        text-align: center;
+    }
+
+    .title_container, .form_section {
+        margin: 1.25em;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up*/
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+
+    .title_container {
+        margin: 10px 30px;
+    }
+
+    .form_section {
+        margin: 10px;
+    }
+
+    .title_container h1 {
+        font-size: 2em;
+    }
+
+    .form_section_paidplan p {
+        margin: 0px 85px;
+        text-align: center;
+    }
+
+    .term_and_services_container {
+        margin: 0 20px;
+    }
+
+}

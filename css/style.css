@@ -1,0 +1,161 @@
+:root {
+
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+
+    --Green_Opacity: #31b87d;
+
+    --Blue: hsl(248, 32%, 49%);
+
+    --Dark_Blue: hsl(249, 10%, 26%);
+    --Grayish_Blue: hsl(246, 25%, 77%);
+
+    --White: #fff;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Red);
+    background-image: url("./images/bg-intro-desktop.png");
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main_container {
+    width: 80%;
+    max-width: 1133px;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4.375em;
+}
+
+.title_section {
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+
+.title_container h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.title_container p {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.form_section_paidplan {
+    background-color: var(--Blue);
+    height: 3.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5625em;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.15);
+}
+
+.form_section_paidplan p {
+    font-size: 0.75em;
+    color: var(--White);
+    font-weight: 400;
+}
+
+.form {
+    background-color: var(--White);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.15);
+}
+
+.form_container {
+    margin: 1.5625em;
+}
+
+input[type="text"], input[type="password"]{
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    outline: none;
+    padding: 1.375em 0.9375em;
+    border: 1px solid var(--Grayish_Blue);
+    font-weight: 600;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid var(--Dark_Blue);
+}
+
+.errorIcon {
+    background: none;
+    background: transparent;
+    background: url("./images/icon-error.svg") no-repeat 22px;
+    background-origin: content-box;
+    background-position: right;
+}
+
+.firstname_container,
+.lastname_container, 
+.email_container,
+.password_container {
+    margin-bottom: 1.25em;
+}
+
+.first_name_warning_message_empty,
+.last_name_warning_message_empty,
+.email_warning_message_empty,
+.email_message_invalid,
+.password_warning_message_empty {
+    text-align: right;
+    color: var(--Red);
+    font-style: italic;
+    font-weight: 500;
+}
+
+button {
+    width: 100%;
+    background-color: var(--Green);
+    color: var(--White);
+    text-transform: uppercase;
+    height: 3.5625em;
+    border: none;
+    border-bottom: 4px solid var(--Green_Opacity);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.term_and_services_container {
+    text-align: center;
+    font-size: 0.75em;
+    color: var(--Grayish_Blue);
+    font-weight: 400;
+}
+
+.term_and_services_container b {
+    color: var(--Red);
+}
+
+.term_and_services_container b:hover {
+    cursor: pointer;
+}
+

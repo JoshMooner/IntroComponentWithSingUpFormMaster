@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="main_container">
+
+      <div class="title_section">
+        <div class="title_container">
+          <h1>Learn to code by watching others</h1>
+
+          <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.</p>
+        </div>
+      </div>
+
+
+      <div class="form_section">
+
+        <div class="form_section_paidplan">
+          <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+        </div>
+
+        <form id="myForm" name="form1" action="#" class="form">
+          <div class="form_container">
+            <div class="firstname_container">
+              <input type="text" name="firstname" placeholder="Fitst Name" class="firstname__input" id="firstname__icon">
+
+              <div class="first_name_warning_message_empty">
+                <p></p>
+              </div>
+            </div>
+
+            <div class="lastname_container">
+              <input type="text" name="lastname" placeholder="Last Name" class="lastname__input" id="lastname__icon">
+
+              <div class="last_name_warning_message_empty">
+                <p></p>
+              </div>
+            </div>
+
+            <div class="email_container">
+              <input type="text" name="email" placeholder="Email Address" class="email__input" id="email__icon">
+
+              <div class="email_warning_message_empty">
+                <p></p>
+              </div>
+            </div>
+
+            <div class="password_container">
+              <input type="password" name="password" placeholder="Password" class="password__input" id="password__icon">
+
+              <div class="password_warning_message_empty">
+                <p></p>
+              </div>
+            </div>
+
+            <button type="submit" name="validation" value="validate" class="form__button">Claim your free trial</button>
+
+            <div class="term_and_services_container">
+              <p>By clicking the button, you are agreeing to our <b>Terms and Services</b></p>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
