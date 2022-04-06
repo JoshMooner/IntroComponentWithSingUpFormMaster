@@ -20,7 +20,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--Red);
-    background-image: url("/images/bg-intro-desktop.png");
+    background-image: url("../images/bg-intro-desktop.png");
     font-size: 16px;
 }
 
@@ -103,7 +103,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 .errorIcon {
     background: none;
     background: transparent;
-    background: url("./images/icon-error.svg") no-repeat 22px;
+    background: url("../images/icon-error.svg") no-repeat 22px;
     background-origin: content-box;
     background-position: right;
 }

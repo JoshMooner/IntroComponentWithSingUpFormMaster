@@ -2,7 +2,7 @@
 @media screen and (max-width: 765px)  {
     body{
         font-size: 14px;
-        background-image: url("/images/bg-intro-mobile.png");
+        background-image: url("../images/bg-intro-mobile.png");
     }
 
     .main_container {
@@ -22,7 +22,7 @@
 @media screen and (max-width: 576px) {
     body {
         font-size: 12px;
-        background-image: url("/images/bg-intro-mobile.png");
+        background-image: url("../images/bg-intro-mobile.png");
     }
 
     .title_container {
