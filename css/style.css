@@ -20,7 +20,7 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--Red);
-    background-image: url("./images/bg-intro-desktop.png");
+    background-image: url("/images/bg-intro-desktop.png");
     font-size: 16px;
 }
 
